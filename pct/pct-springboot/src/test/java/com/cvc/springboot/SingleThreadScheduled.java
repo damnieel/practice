@@ -10,14 +10,15 @@ public class SingleThreadScheduled {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		final ScheduledExecutorService es = Executors.newSingleThreadScheduledExecutor();
 
-		es.schedule(new Runnable() {
+		/*es.schedule(new Runnable() {
 
 			public void run() {
 
 				System.out.println("now " + new Date());
 			}
 
-		}, 1, TimeUnit.SECONDS);
-		es.scheduleWithFixedDelay(new Runnable(){public void run() {System.out.println("now " + new Date());}} ,0, 1 , TimeUnit.SECONDS);
+		}, 1, TimeUnit.SECONDS);*/
+		
+		es.scheduleWithFixedDelay(new Runnable(){public void run() {System.out.println("now " + new Date());}} ,0, 5 , TimeUnit.SECONDS);
 	}
 }
