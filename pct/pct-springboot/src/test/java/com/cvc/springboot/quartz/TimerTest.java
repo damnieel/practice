@@ -1,4 +1,4 @@
-package com.cvc.springboot;
+package com.cvc.springboot.quartz;
 
 import java.util.Date;
 import java.util.Timer;

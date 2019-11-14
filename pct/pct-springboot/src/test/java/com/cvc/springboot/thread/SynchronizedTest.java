@@ -1,4 +1,4 @@
-package com.cvc.springboot;
+package com.cvc.springboot.thread;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

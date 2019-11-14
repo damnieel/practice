@@ -1,4 +1,4 @@
-package com.cvc.springboot;
+package com.cvc.springboot.thread;
 /**
  * 以资源为例，生产者生产一个资源，通知消费者就消费掉一个资源，
  * 生产者继续生产资源，消费者消费资源，以此循环。

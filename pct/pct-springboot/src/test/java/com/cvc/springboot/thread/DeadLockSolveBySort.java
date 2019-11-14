@@ -1,4 +1,4 @@
-package com.cvc.springboot;
+package com.cvc.springboot.thread;
 
 public class DeadLockSolveBySort {
 	public int flag = 1;

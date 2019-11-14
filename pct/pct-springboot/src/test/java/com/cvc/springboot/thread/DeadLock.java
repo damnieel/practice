@@ -1,4 +1,4 @@
-package com.cvc.springboot;
+package com.cvc.springboot.thread;
 
 /**
  * 一个简单的死锁类 当 DeadLock 类的对象 flag==1 时（td1），先锁定 o1，睡眠 500 毫秒 而 td1 在睡眠的时候另一个

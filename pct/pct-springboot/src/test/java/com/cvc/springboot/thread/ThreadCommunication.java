@@ -1,4 +1,4 @@
-package com.cvc.springboot;
+package com.cvc.springboot.thread;
 
 public class ThreadCommunication {
 	private static int num;// 定义一个变量作为数据8.

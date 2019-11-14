@@ -1,4 +1,4 @@
-package com.cvc.springboot;
+package com.cvc.springboot.thread;
 /**
  * 线程通信的方式：共享变量
  * 线程间通信可以通过发送信号，发送信号的一个简单方式是在共享对象的变量里设置信号值。
