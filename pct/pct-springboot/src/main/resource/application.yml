@@ -25,4 +25,4 @@ spring:
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
         mybatis:
-          type-aliases-package:  domain
+          type-aliases-package:  com.cvc.springboot.domain
