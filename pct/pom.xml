@@ -86,17 +86,22 @@
 				<version>${spring-boot.version}</version>
 				<scope>test</scope>
 			</dependency>
-
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-jdbc</artifactId>
 				<version>${spring-boot.version}</version>
 			</dependency>
-
+			
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-devtools</artifactId>
 				<version>${spring-boot.version}</version>
+			</dependency>
+			<!--quartz依赖-->
+			<dependency>
+			    <groupId>org.springframework.boot</groupId>
+			    <artifactId>spring-boot-starter-quartz</artifactId>
+			    <version>${spring-boot.version}</version>
 			</dependency>
 			<!-- 使用lombok实现JavaBean的get、set、toString、hashCode、equals等方法的自动生成 -->
 			<dependency>
