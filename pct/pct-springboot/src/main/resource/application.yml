@@ -3,7 +3,7 @@ server:
   context-path: /pct
 spring:
  activeqm:
-  broker-url: tcp://localhost:61616
+  broker-url: tcp://127.0.0.1:61616
   
  datasource:
         name: localhost
