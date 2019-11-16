@@ -1,7 +1,6 @@
 server:
   port: 8080	
-  servlet:
-      context-path: /pct
+  context-path: /pct
 spring:
  datasource:
         name: localhost

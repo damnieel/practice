@@ -23,7 +23,7 @@
 		<dubbo.version>2.5.5</dubbo.version>
 		<zkclient.version>0.10</zkclient.version>
 		<lombok.version>1.16.18</lombok.version>
-		<spring-boot.version>2.0.1.RELEASE</spring-boot.version>
+		<spring-boot.version>1.5.7.RELEASE</spring-boot.version>
 	</properties>
 
 	<build>
@@ -91,17 +91,17 @@
 				<artifactId>spring-boot-starter-jdbc</artifactId>
 				<version>${spring-boot.version}</version>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-devtools</artifactId>
 				<version>${spring-boot.version}</version>
 			</dependency>
-			<!--quartz依赖-->
+			<!--activemq依赖 -->
 			<dependency>
-			    <groupId>org.springframework.boot</groupId>
-			    <artifactId>spring-boot-starter-quartz</artifactId>
-			    <version>${spring-boot.version}</version>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-activemq</artifactId>
+				<version>${spring-boot.version}</version>
 			</dependency>
 			<!-- 使用lombok实现JavaBean的get、set、toString、hashCode、equals等方法的自动生成 -->
 			<dependency>
