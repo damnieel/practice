@@ -12,6 +12,7 @@ public class ProviderApplication {
 	public static void main(String[] args) throws IOException {
 	      SpringApplication.run(ProviderApplication.class, args);
 	      System.out.println("服务端启动成功！！！");
+	      
 	      try {
 	         System.in.read();
 	      } catch (IOException e) {
